@@ -1,29 +1,30 @@
 {
-  "name": "test",
-  "description": "The best module ever.",
-  "version": "0.0.0",
-  "homepage": "user/repo",
-  "bugs": "user/repo/issues",
-  "license": "MIT",
-  "main": "lib/test.js",
-  "author": {
-    "name": ""
+  "name": "geo-pinyin-map",
+  "version": "0.0.1",
+  "description": "China provice city with `pinyin` mapping",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "user/repo"
+    "url": "https://github.com/shenchenxh/geo-pinyin-map"
   },
-  "keywords": [],
+  "keywords": [
+    "pinyin",
+    "geo",
+    "map"
+  ],
+  "author": "shenchenxh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shenchenxh/geo-pinyin-map/issues"
+  },
+  "homepage": "https://github.com/shenchenxh/geo-pinyin-map",
   "dependencies": {
     "console": "^0.5.2",
-    "debug": "2.2.0",
-    "geoip-lite": "1.1.6",
-  },
-  "devDependencies": {
-    "gulp": "^3.8.8",
-  },
-  "scripts": {
-    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "test": "gulp test"
+    "geoip-lite": "^1.1.6",
+    "jest-cli": "^0.4.5",
+    "pinyin": "^2.4.2"
   }
 }
