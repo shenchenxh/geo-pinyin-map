@@ -18,23 +18,9 @@
     "console": "^0.5.2",
     "debug": "2.2.0",
     "geoip-lite": "1.1.6",
-    "lodash": "3.8.0",
-    "pinyin": "^2.4.2",
-    "q": "1.4.1"
   },
   "devDependencies": {
     "gulp": "^3.8.8",
-    "gulp-util": "^3.0.1",
-    "gulp-bump": "^0.1.11",
-    "gulp-jscs": "^1.1.2",
-    "gulp-jshint": "^1.8.4",
-    "gulp-mocha": "^1.1.0",
-    "gulp-istanbul": "^0.5.0",
-    "coveralls": "^2.11.1",
-    "should": "^4.0.4",
-    "jshint-stylish": "^0.4.0",
-    "gulp-load-plugins": "^0.6.0",
-    "gulp-plumber": "^0.6.5"
   },
   "scripts": {
     "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
